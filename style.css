@@ -1,0 +1,41 @@
+body {
+  font-family: monospace;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  overflow-x: auto;
+}
+#panel-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.panel {
+  width: 260px;
+  padding: 12px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #0003;
+  box-sizing: border-box;
+}
+.panel h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+/* buttons --------------------------------------------------------*/
+.btn {
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+  font: 600 14px monospace;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #d5ffd8;
+}
+.btn[data-layer="gems"] { background:#fffdc8; }
+.btn:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
