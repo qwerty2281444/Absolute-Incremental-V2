@@ -18,6 +18,8 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 6px #0003;
   box-sizing: border-box;
+  max-height:420px;
+  overflow-y:auto;
 }
 .panel h2 {
   margin: 0 0 8px;
